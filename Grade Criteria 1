@@ -1,0 +1,16 @@
+
+per = float(input("Enter your percentage: "))
+
+
+if per < 25:
+    grade = "D"
+elif per <= 45:
+    grade = "C"
+elif per <= 65:
+    grade = "B"
+elif per <= 85:
+    grade = "A"
+else:
+    grade = "A+"
+
+print("Your grade is:",grade)

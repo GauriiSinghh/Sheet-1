@@ -1,0 +1,10 @@
+A = int(input("Enter the A\n"))
+B= int(input("Enter the B\n"))
+
+if(A>B):
+    print("num A is the greatest number")
+
+else:
+    print("num B is greatest number")
+
+

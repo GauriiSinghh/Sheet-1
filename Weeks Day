@@ -1,0 +1,18 @@
+d=int(input("Enter number of Day "))
+
+if(d==1):
+    print("Today is Sunday")
+if(d==2):
+    print("Today is Monday")
+if(d==3):
+    print("Today is Tuesday")
+if(d==4):
+    print("Today is Wednesday")
+if(d==5):
+    print("Today is Thursday")
+if(d==6):
+    print("Today is Friday")
+if(d==7):
+    print("Today is Saturday")
+else:
+    print("Day not justified")

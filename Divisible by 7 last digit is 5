@@ -1,0 +1,9 @@
+n=int(input("Enter a number: "))
+if(n%7==0 and n%10==5):
+    print("Number is divisible by 7 and last digit is 5")
+elif(n%7==0 and n%10!=5):
+    print("Number is  divisible by 7 but last digit is not 5")
+elif(n%7!=0 and n%10==5):
+    print("Number is not divisible by 7 but last digit is  5")
+else:
+    print("Number is not divisible by 7 and last digit is not 5")

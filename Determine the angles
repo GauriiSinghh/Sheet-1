@@ -1,0 +1,10 @@
+angle1 = int(input("Enter degree of triangle\n"))
+angle2 = int(input("Enter degree of triangle\n"))
+angle3 = int(input("Enter degree of triangle\n"))
+
+if angle1 == 90 or angle2 == 90 or angle3 == 90:
+        print("This is a Right triangle.")
+elif angle1 > 90 or angle2 > 90 or angle3 > 90:
+        print("This is an Obtuse triangle.")
+else:
+        print("This is an Acute triangle.")
